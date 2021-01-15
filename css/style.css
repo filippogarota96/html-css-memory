@@ -17,11 +17,12 @@ header {
   font-size: 50px;
   margin-top: 20px;
   text-align: center;
+  text-shadow: 2px 2px rgba(0,0,0,0.3);
 }
 
 main {
   margin: 20px auto;
-  width: 1000px;
+  width: 900px;
   height: 800px;
 }
 
@@ -37,10 +38,13 @@ main {
   background-size: contain;
   background-position: center;
   display: inline-block;
-  margin-left: 20px;
-  text-align: center;
+  margin-left: 10px;
   box-shadow: 3px 5px rgba(0,0,0,0.3);
+  position: relative;
+  text-align: center;
+
 }
+
 
 .card:hover {
   background-color: white;
@@ -49,13 +53,28 @@ main {
   border-radius: 20px;
   color: black;
   background-image: none;
+  position: relative;
+
 }
+
 .card img {
   width: 175px;
   margin: auto;
+  position: absolute;
+  display: none;
+  top: 0 ;
+  left: 20px;
 }
+
+
+
 .card h2 {
   font-size: 35px;
+  position: absolute;
+  display: none;
+  left: 30px;
+  bottom:5px;
+
 }
 .card img {
   display: none;
@@ -73,6 +92,8 @@ main {
 
 .second-row, .third-row {
   margin-top: 20px;
+  position: relative;
+
 }
 
 /*Carta senza hover */
@@ -82,21 +103,31 @@ main {
   height: 235px;
   border-radius: 20px;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 10px;
   text-align: center;
   color: black;
-  box-shadow: 3px 5px rgba(0,0,0,0.4);
+  box-shadow: 3px 5px rgba(0,0,0,0.3);
+  position: relative;
 }
+
+
+
+
 
 #hover-no img {
   width: 170px;
   margin: auto;
+  top: 0 ;
+  left: 30px;
 }
 #hover-no h2 {
   font-size: 35px;
-  display: block;
   color: #2a47af;
+  position: absolute;
+  left:20px;
+  bottom:5px;
 }
+
 
 //*Carta senza hover */
 
