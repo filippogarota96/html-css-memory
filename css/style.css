@@ -11,6 +11,40 @@ body {
   font-family: 'Nerko One', cursive;
 }
 
-h1 {
-  font-size: 80px;
+header {
+  font-size: 50px;
+  margin-top: 20px;
 }
+
+main {
+  margin: 30px auto;
+  width: 80%;
+  height: 1000px;
+}
+
+/*first-row section*/
+.card {
+  background-color: white;
+  width: 200px;
+  height: 235px;
+  border-radius: 20px;
+  color: black;
+
+}
+.card img {
+  width: 175px;
+  margin: auto;
+
+}
+.card h2 {
+  font-size: 35px;
+  margin-top: 2px;
+
+}
+.card img, h2 {
+  display: none
+}
+.card:hover img, h2 {
+  display: block;
+}
+/*/first-row section*/
