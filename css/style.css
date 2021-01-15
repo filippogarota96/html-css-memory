@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  background-color:#ADD8E6;
+  text-align: center;
+  color: white;
+  font-family: 'Nerko One', cursive;
+}
+
+h1 {
+  font-size: 80px;
 }
