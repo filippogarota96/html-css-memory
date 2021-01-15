@@ -29,8 +29,21 @@ main {
   height: 235px;
   border-radius: 20px;
   color: black;
-
+  background-image: url("../img/pattern.png");
+  background-size:contain;
+  background-position: center;
 }
+
+.card:hover {
+  background-color: white;
+  width: 200px;
+  height: 235px;
+  border-radius: 20px;
+  color: black;
+  background-image:none;
+  
+}
+
 .card img {
   width: 175px;
   margin: auto;
@@ -41,10 +54,20 @@ main {
   margin-top: 2px;
 
 }
-.card img, h2 {
-  display: none
+.card img {
+  display: none;
 }
-.card:hover img, h2 {
+
+.card h2 {
+  display: none;
+}
+
+
+.card:hover img {
+  display: block;
+}
+
+.card:hover h2 {
   display: block;
 }
 /*/first-row section*/
